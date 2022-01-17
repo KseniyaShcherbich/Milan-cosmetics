@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--   ИЗ ЭТ СЕКЦИИ ДАННЫЕ НЕ ОТОБРАЖ-СЯ И ИСП-СЯ ДЛЯ ПОДКЛЮЧ JS CSS И СИСТ НАСТРОЕК   -->
+    <title>search_page</title>
+
+    <!-- charset это атрибут
+        utf-8 это значение
+        атрибуты исп-ют для того, чтобы изм-ть отображение (интерпритацию тега(настроить его))-->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="header_nav__menu">
+                <ul>
+                  <li class="promo"><a href="#">Акции</a></li>
+                  <li>
+                    <a href="#"
+                      >Обучение<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Новости<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Сотрудничество<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li class="vacancy_margin"><a href="#">Вакансии</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="header_nav__payment">
+                <ul>
+                  <li><a href="#">Дисконтная программа</a></li>
+                  <li><a href="#">Оплата и доставка</a></li>
+                  <li>
+                    <a href="#"><span class="ico-link"></span></a
+                    ><a href="#">Milan@yandex.ru</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="logo logo_media">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="logo_block">
+              <div class="logo_block__pic">
+                <a href="#"><img src="images/milan_logo.svg" /></a>
+              </div>
+              <div class="logo_block__text">
+                <p>дистрибьютор</p>
+                <p>профессиональной</p>
+                <p>косметики</p>
+              </div>
+            </div>
+            <div class="logo_block_media">
+              <a class="milan_mini_media" href="#"
+                ><img src="images/milan_mini.svg"
+              /></a>
+              <a href="#"
+                ><img class="bag_media" src="images/bag.svg" />
+                <img src="images/button_menu.svg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 logo_cont_media">
+            <div class="logo_cont">
+              <div class="logo_cont__search">
+                <input type="text" placeholder="Поиск ..." />
+                <a href="#"><span class="ico-search"></span></a>
+              </div>
+              <div div class="logo_cont__buy">
+                <a href="#"><span class="ico-location"></span>Где купить</a>
+              </div>
+              <div class="logo_cont__phone">
+                <div>
+                  <p>
+                    <a href="#">+375 (29) <b>347-00-90</b></a>
+                  </p>
+                  <p>
+                    <a href="#">+375 (29) <b>667-00-10</b></a>
+                  </p>
+                </div>
+                <a href="#"><span class="ico-cart"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border_media"></div>
+    </div>
+    <div class="border_under_logo"></div>
+    <div class="main_nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li>
+                <a href="#">Бренды<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Волосы<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Макияж<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Маникюр и педикюр<span class="dark_nav_arrow"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#">Лицо<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Тело<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Корея<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Мужчинам<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Одноразовая продукция<span class="dark_nav_arrow"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border_under_logo"></div>
+    <div class="bread-crumbs">
+      <div class="container">
+        <ul>
+          <li class="dote_after"><a href="#">Главная</a></li>
+          <li>
+            <a href="#"><b>Поиск</b></a>
+          </li>
+        </ul>
+        <div class="title title_media">Поиск</div>
+        <div class="search_page_title search_page_title_media">Краска для волос</div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <div class="row products_position">
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_paese.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i><s>1300.00 byn</s>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 volDev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_opium.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <div class="row products_position">
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_paese.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i><s>1300.00 byn</s>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 volDev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_opium.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <div class="row products_position">
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_paese.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i><s>1300.00 byn</s>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 volDev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_opium.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <div class="row products_position">
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_paese.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i><s>1300.00 byn</s>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 volDev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_opium.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <div class="row products_position">
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_paese.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i><s>1300.00 byn</s>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 volDev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_opium.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price">
+                <b>1 100</b>.50 <i>byn</i>
+              </div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="products_block">
+              <div class="products_block__img">
+                <a href="#"><img src="images/cosm_radical.svg" /></a>
+              </div>
+              <div class="products_block__text">
+                Dev Oxi Peroxide 6 vol Dev Oxi Peroxide 6 vol...
+              </div>
+              <div class="rating">
+                <div class="stars">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="comments"><a href="#">5 отзывов</a></div>
+              </div>
+              <div class="products_block__price"><b>34</b>.50 <i>byn</i></div>
+              <div class="products_block__button"><a href="#">Купить</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products_media">
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+    </div>
+    <div class="products_media">
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+    </div>
+    <div class="products_media">
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+    </div>
+    <div class="products_media">
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+      <div class="products_media_block">
+        <div class="products_media_block_pic">
+          <a href="#"><img src="images/paese_mini.svg" /></a>
+        </div>
+        <div class="products_media_block_text">
+          <p class="first_p">Dev Oxi Peroxide 6 vol</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+          <p>Dev Oxi Peroxide 6 vol...</p>
+        </div>
+        <div class="products_media_block_info">
+          <div class="stars stars_media_block">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="products_media_block_comment">
+            <a href="#">4 отзыва</a>
+          </div>
+        </div>
+          <div class="products_media_block_price">
+          <div>1 100.<b>50</b> <u>byn</u></div>
+          <div><s>1300.00 byn</s></div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination_media">
+      <div class="container">
+        <div class="pagination">
+          <div class="pagination__list pagination_list_media">
+            <div class="pagination_butn_media">
+              <a href="#" class="back_media">НАЗАД</a>
+              <a href="#" class="forward">ВПЕРЕД</a>
+            </div>
+            <ul>
+              <li class="first_media"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">...</a></li>
+              <li><a href="#">12</a></li>
+              <li class="last_media"><a href="#">13</a></li>
+              <li class="last_media_forward"><a href="#" class="last_a">вперед ></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_nav">
+      <div class="footer_nav_info">
+        <div class="footer_nav_info__block">
+          г. Минск, ул. Филимонова 55/3, офис 309/14
+          <div class="footer_nav__nets">
+            <a href="#"><span class="ico-vk"></span></a>
+            <a href="#"><span class="ico-facebook"></span></a>
+            <a href="#"><span class="ico-inst"></span></a>
+          </div>
+        </div>
+        <div class="footer_nav_info__block">
+          Работаем: Пн-Пт с 9:00 до 18:00
+        </div>
+        <div class="footer_nav_info__block footer_block_flex">
+          <b>телефон</b>
+          <div>
+            <p>+375 (29) 347-00-90</p>
+            <p>+375 (29) 667-00-10</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_nav_subscribe">
+        <a href="#" class="nav_bold">Подписка на ближайшие семинары и акции</a>
+        <input  type="email" placeholder="Электронная почта"></input>
+        <div class="just_border"></div>
+        <a href="#" class="nav_bordered">подписаться</a>
+      </div>
+    </div>
+    <div class="footer_nav_media footer_nav_order_history_media">
+      <div class="footer_nav_nets_media">
+        <a href="#"><span class="ico-vk ico-vk_size"></span></a>
+        <a href="#"><span class="ico-facebook ico-facebook_size"></span></a>
+        <a href="#"><span class="ico-inst ico-inst_size"></span></a>
+      </div>
+      <div class="footer_nav_media_info">
+        <div class="footer_nav_media_info_block location_media_block">
+          <span class="location_media"></span>
+          <p>г. Минск, ул. Филимонова 55/3, офис 309/14</p>
+        </div>
+        <div class="footer_nav_media_info_block clock_media_block">
+          <span class="clock_media"></span> Работаем: Пн-Пт с 9:00 до 18:00
+        </div>
+        <div class="footer_nav_info_media_block phone_media_block">
+          <span class="phone_media"></span>
+          <div>
+            Телефон
+            <p>+375 (29) 347-00-90</p>
+            <p>+375 (29) 667-00-10</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_nav_media_border"></div>
+      <div class="footer_nav_subscribe footer_nav_subscribe_media">
+        <a href="#" class="nav_bold nav_bold_media"
+          >Подписка на ближайшие семинары и акции</a
+        >
+        <input type="email" placeholder="Электронная почта" />
+        <div class="just_border just_border_media"></div>
+        <a href="#" class="nav_bordered nav_bordered_media">подписаться</a>
+      </div>
+    </div>
+    <div class="footer_line footer_line_media">
+      <ul>
+        <li>
+          <a href="#"
+            ><b>&copy;</b><i>MilanCosmetics.by</i>– Все права защищены</a
+          >
+        </li>
+        <li><a href="#" class="underline">Карта сайта</a></li>
+        <li>
+          <a href="#" class="flex"
+            >Разработка сайта<span class="grizzly"></span
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

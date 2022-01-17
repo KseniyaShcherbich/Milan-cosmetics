@@ -1,0 +1,71 @@
+.buy {
+  .buy_country {
+    margin-bottom: 32px;
+    select {
+      border: 1px solid #cccccc;
+      outline: none;
+      padding: 10px;
+    }
+  }
+  .buy_block {
+    @include flex(flex-start, start);
+    flex-wrap: nowrap;
+    margin-bottom: 32px;
+    &:nth-child(5n) {
+      margin-bottom: 56px;
+    }
+    &__pic {
+      margin-right: 30px;
+      img {
+        width: 202px;
+        height: 140px;
+      }
+    }
+    &__text {
+      .buy_title {
+        @include font(14px, bold, #000);
+        margin-bottom: 15px;
+      }
+      select {
+        border: 1px solid #cccccc;
+        outline: none;
+        padding: 10px;
+      }
+      p {
+        @include font(12px, 400, #838383);
+        font-family: "Roboto", sans-serif;
+        width: 130px;
+        margin-top: 20px;
+      }
+    }
+    .buy_address {
+      @include font(12px, 400, #333333);
+      font-family: "Roboto", sans-serif;
+      width: 100%;
+    }
+  }
+  .buy_map {
+    img {
+      width: 100%;
+    }
+  }
+}
+.buy_arrow_left {
+  top: 26%;
+  left: 28px;
+}
+.buy_arrow_right {
+  top: 26%;
+  right: 30px;
+}
+.buy_arrow_left_second {
+  top: 64%;
+  left: 28px;
+}
+.buy_arrow_right_second {
+  top: 64%;
+  right: 28px;
+}
+.training_media {
+  display: none;
+}

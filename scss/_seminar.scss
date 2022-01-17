@@ -1,0 +1,106 @@
+.seminar_categories {
+  margin: 24px 0px 32px 0px;
+  ul {
+    margin: 0px;
+    padding: 0px;
+    li {
+      display: inline-flex;
+      align-content: center;
+      align-items: center;
+      &:after {
+        content: "\00B7";
+        margin: 0px 13px;
+        width: 2px;
+      }
+      &:last-child {
+        &:after {
+          color: transparent;
+        }
+      }
+      a {
+        @include font(12px, 400, #000);
+        text-decoration: none;
+        b {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.seminar {
+  &__title {
+    @include font(24px, 700, #333);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  &__pic {
+    img {
+      width: 100%;
+    }
+  }
+  .seminar_info {
+    &__date {
+      margin-bottom: 20px;
+      span {
+        margin-right: 10px;
+      }
+      p {
+        display: inline;
+        margin-left: 2px;
+      }
+    }
+    &__title {
+      @include font(15px, 700, #333);
+      text-transform: uppercase;
+      p {
+        margin: 20px 0px 20px 0px;
+      }
+    }
+    &__list {
+      ol {
+        padding: 0px 17px;
+        li {
+          margin-bottom: 10px;
+          @include font(14px, 400, #000);
+        }
+      }
+    }
+  }
+  &__registration {
+    text-align: center;
+    margin: 48px 0px 40px 0px;
+    ul {
+      margin: 0px;
+      padding: 0px;
+      li {
+        display: inline;
+        @include font(15px, 700, #333);
+        text-transform: uppercase;
+        margin-right: 29px;
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+  &__button {
+    text-align: center;
+    padding: 28px;
+    a {
+      border: 2px solid #ce39a9;
+      width: 732px;
+      padding: 28px;
+      text-decoration: none;
+      @include font(23px, 400, #333);
+      u {
+        text-decoration: none;
+        border: none;
+      }
+      &:hover {
+        text-decoration: none;
+        color: #333;
+      }
+    }
+  }
+}

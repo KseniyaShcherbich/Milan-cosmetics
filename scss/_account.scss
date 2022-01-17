@@ -1,0 +1,23 @@
+.account_flex {
+  @include flex(center, center);
+  margin-bottom: 32px;
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    li {
+      display: inline;
+      a {
+        @include font(14px, 300, #333333);
+      }
+    }
+  }
+}
+.title_form {
+  @include font(15px, 700, #000);
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.logo_block_media {
+  display: none;
+}

@@ -1,0 +1,7 @@
+.order_history_empty {
+  &__info {
+    @include font(15px, 400, #000000);
+    margin-top: 40px;
+    font-family: "Gotham Pro";
+  }
+}

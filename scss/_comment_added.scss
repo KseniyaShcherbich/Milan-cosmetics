@@ -1,0 +1,16 @@
+.comment_added {
+  width: 546px;
+  top: 70%;
+  p {
+    padding: 10px 31px 40px 40px;
+    @include font(16px, 400, #000000);
+    margin: 0px;
+    b {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  .comment_added_cross {
+    padding: 24px 24px 0px 0px;
+  }
+}

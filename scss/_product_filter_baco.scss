@@ -1,0 +1,24 @@
+.product_filter_baco_block {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 40px 0px 20px 0px;
+  .product_filter_baco_pic {
+    margin-right: 48px;
+  }
+  .product_filter_baco_text {
+    @include font(15px, 400, #333);
+  }
+}
+.product_filter_baco_filtеr {
+  display: none;
+}
+.pagination_media {
+  .pagination_filter_margin {
+    margin-top: 50px;
+  }
+}
+body {
+  .black_nav_link_margin {
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACvB,UAAU,EAAE,cAAc;CAC3B",
+    "sources": [
+        "../scss/header_back_menu.scss"
+    ],
+    "names": [],
+    "file": "header_back_menu.css"
+}

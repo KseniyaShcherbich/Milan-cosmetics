@@ -1,0 +1,26 @@
+.header_registr_info {
+  padding-left: 21px;
+  b {
+    @include font(20px, 500, #000000);
+  }
+  p {
+    @include font(13px, 500, #333333);
+    margin: 16px 0px;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    li {
+      margin-bottom: 8px;
+      &:last-child {
+        margin-bottom: 20px;
+      }
+      &:before {
+        content: url("../images/dote.svg");
+        display: inline-block;
+        margin-right: 8px;
+      }
+    }
+  }
+}

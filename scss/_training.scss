@@ -1,0 +1,246 @@
+.categories {
+  margin: 24px 0px 32px 0px;
+  ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    li {
+      list-style: none;
+      color: #333333;
+      display: inline-block;
+      a {
+        @include font(14px, 300, #333333);
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:after {
+        display: inline-block;
+        content: "\002F";
+        padding-left: 3px;
+        color: #333333;
+      }
+      &:last-child {
+        &:after {
+          color: transparent;
+        }
+      }
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+}
+.training {
+  position: relative;
+  .training_promo {
+    width: 318px;
+    &__email {
+      margin-bottom: 24px;
+      padding: 16px;
+      border: 1px solid #d7d7d7;
+      p {
+        @include font(14px, 300, #2b2b2b);
+        font-family: "Roboto";
+        font-family: sans-serif;
+        margin-bottom: 16px;
+        b {
+          font-weight: 700;
+        }
+      }
+      form {
+        border: 1px solid #d7d7d7;
+        padding: 5px 5px 5px 14px;
+        display: flex;
+        justify-content: space-between;
+        input {
+          font-family: "Microsoft Sans Serif";
+          @include font(12px, 400, #878787);
+          outline: none;
+          margin: 0px;
+          padding: 0px;
+          border: none;
+        }
+        button {
+          border: 1px solid #d7d7d7;
+          width: 30px;
+          height: 30px;
+          background: #fff;
+          &:after {
+            margin-left: 4px;
+            content: url("../images/buy_arrow.svg");
+            display: block;
+            width: 11px;
+            height: 18px;
+          }
+        }
+      }
+    }
+    &__product {
+      padding: 16px 16px 32px 16px;
+      border: 1px solid #d7d7d7;
+      margin-bottom: 24px;
+      .training_product_block {
+        @include flex(center, center);
+      }
+      .promo_news {
+        @include flex(space-between, center);
+        a {
+          text-decoration: none;
+          b {
+            @include font(13px, 700, #333333);
+          }
+          u {
+            @include font(13px, 400, #2b2b2b);
+            font-family: "Roboto";
+            font-family: sans-serif;
+          }
+        }
+      }
+      .promo_info {
+        @include flex(space-between, center);
+        flex-wrap: nowrap;
+        margin: 32px 0px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        &__pic {
+          a {
+            img {
+              width: 78px;
+              height: 78px;
+            }
+          }
+        }
+        &__text {
+          margin-left: 16px;
+          @include font(13px, 400, #2b2b2b);
+          font-family: "Roboto";
+          font-family: sans-serif;
+        }
+      }
+      .training_text {
+        text-align: center;
+        @include font(14px, 500, #333333);
+        p {
+          @include font(13px, 400, #2b2b2b);
+          font-family: "Roboto";
+          font-family: sans-serif;
+          margin: 16px 0px 32px 0px;
+        }
+      }
+      .training_arrow_left {
+        top: 19%;
+        left: 28px;
+      }
+      .training_arrow_right {
+        top: 19%;
+        right: 30px;
+      }
+      .dot {
+        ul {
+          margin: 0px;
+          padding: 0px;
+          li {
+            list-style: none;
+            display: inline-block;
+            background: url(../images/grey_dot.svg) no-repeat;
+            width: 14px;
+            height: 14px;
+            margin-right: 16px;
+            &:last-child {
+              margin-right: 0px;
+            }
+            &:hover {
+              background: url(../images/pink_dot.svg) no-repeat;
+            }
+          }
+        }
+      }
+      .training_img_flex {
+        @include flex(center, center);
+        margin-bottom: 40px;
+        margin-top: 27px;
+      }
+      .training_arrow_left_second {
+        top: 48%;
+        left: 28px;
+      }
+      .training_arrow_right_second {
+        top: 48%;
+        right: 28px;
+      }
+    }
+  }
+  .training_seminar {
+    @include flex(space-between, top);
+    flex-wrap: nowrap;
+    margin-bottom: 24px;
+    border: 1px solid #d7d7d7;
+
+    &__info {
+      padding: 15px 0px 0px 15px;
+      .seminar_title {
+        padding-right: 32px;
+        a {
+          @include font(14px, 700, #333333);
+          line-height: 15px;
+          text-decoration: none;
+        }
+      }
+      .seminar_time {
+        margin: 24px 0px 16px 0px;
+        @include font(12px, 400, #464646);
+        font-family: "Roboto";
+        font-family: sans-serif;
+        span {
+          margin-right: 10px;
+        }
+      }
+      .seminar_locarion {
+        @include font(12px, 400, #464646);
+        font-family: "Roboto";
+        font-family: sans-serif;
+        span {
+          margin-right: 14px;
+        }
+      }
+    }
+    &__butn {
+      border: 2px solid #333333;
+      width: 290px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 60px;
+      a {
+        display: inline-block;
+        padding: 13px 93px;
+        text-decoration: none;
+        @include font(12px, 400, #464646);
+      }
+    }
+    &__text {
+      @include font(15px, 400, #333);
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+  .past_seminars {
+    @include font(14px, 500, #333333);
+    margin: 24px 0px;
+  }
+  .seminar_opacity {
+    opacity: 30%;
+  }
+}
+.categories_media {
+  display: none;
+}
+.training_media_display {
+  display: block;
+}
+.training_media {
+  display: none;
+}

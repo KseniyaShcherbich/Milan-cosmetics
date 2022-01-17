@@ -1,0 +1,30 @@
+.payment_delivery_info {
+  margin: 40px 0px 56px 0px;
+  .payment_delivery_info_photo_block {
+    @include flex(space-between, flex-start);
+    flex-wrap: nowrap;
+    img {
+      width: 500px;
+    }
+  }
+  .payment_delivery_info_text {
+    width: 565px;
+    .payment_delivery_info_text_head {
+      @include font(20px, 700, #333333);
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    p {
+      @include font(14px, 400, #333333);
+      margin-bottom: 56px;
+      u {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
+  .payment_delivery_info_second_block {
+    width: 100%;
+    display: block;
+  }
+}

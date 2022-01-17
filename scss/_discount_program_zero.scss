@@ -1,0 +1,25 @@
+.discount_program_zero_percent {
+  background: #f5f5f5;
+  border: 2px solid #ce39a9;
+  width: 400px;
+  height: 48px;
+  margin-bottom: 12px;
+}
+.discount_program_butn {
+  width: 208px;
+  background: #ce39a9;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 54px;
+  a {
+    @include font(13px, 700, #fff);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 20px;
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}

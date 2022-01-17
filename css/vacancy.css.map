@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/vacancy.scss"
+    ],
+    "names": [],
+    "file": "vacancy.css"
+}

@@ -1,0 +1,8 @@
+.search_page_title {
+  @include font(15px, 500, #000000);
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+.pagination_butn_media {
+  display: none;
+}

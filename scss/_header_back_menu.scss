@@ -1,0 +1,55 @@
+.header_back_menu_border {
+  border-top: 1px solid #c4c4c4;
+}
+.header_back_menu_cam {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 11px 0px 11px 31px;
+  .cam_block {
+    background: #f5f5f5;
+    border: 1px solid #878787;
+    padding: 12px 7px;
+  }
+  .cam_text {
+    padding-left: 13px;
+    input {
+      outline: none;
+      border: none;
+      @include font(14px, 400, #333333);
+      padding: 0px;
+    }
+    a {
+      @include font(12px, 300, #878787);
+      text-decoration: none;
+      display: block;
+    }
+  }
+}
+.header_back_menu_padding {
+  padding: 10px 0px;
+}
+.header_back_menu_cross {
+  margin-right: 10px;
+}
+.header_back_menu_info {
+  a {
+    @include font(12px, 400, #333333);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 0px 20px 31px;
+    display: block;
+    &:hover {
+      color: #ce39a9;
+      text-decoration: none;
+    }
+  }
+}
+.header_back_butn_margin {
+  margin-top: 32px;
+  a {
+    padding: 11px 32px;
+    &:hover {
+      padding: 10px 32px;
+    }
+  }
+}

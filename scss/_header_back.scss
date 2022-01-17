@@ -1,0 +1,99 @@
+.header_back_popup {
+  width: 392px;
+  left: 49%;
+  padding: 10px;
+  .header_back_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    margin-bottom: 23px;
+  }
+  .header_back_registration {
+    ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      li {
+        margin: 0px;
+        display: inline;
+        padding-left: 43px;
+        &:last-child {
+          padding-left: 16px;
+        }
+        a {
+          text-decoration: none;
+          @include font(13px, 400, #333333);
+          &:hover {
+            border-bottom: 1px solid #ce39a9;
+            padding-bottom: 19px;
+          }
+        }
+      }
+    }
+  }
+  .header_back_border {
+    margin: 8px 0px 32px 0px;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  .header_back_form {
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      input {
+        outline: none;
+        border: none;
+        background: #e9e9e9;
+        width: 332px;
+        padding: 14px;
+        @include font(13px, 400, #878787);
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .header_back_butns {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 21px;
+    .header_back_butn {
+      width: 102px;
+      text-align: center;
+      //   margin-left: 21px;
+      a {
+        &:hover {
+          padding: 9px 26px;
+          text-align: center;
+        }
+      }
+    }
+    .header_back_butn_grey {
+      a {
+        @include font(13px, 400, #878787);
+        &:hover {
+          color: #ce39a9;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .header_back_social-net {
+    p {
+      @include font(13px, 400, #878787);
+      margin: 32px 0px 16px 21px;
+    }
+    ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      margin-left: 21px;
+      margin-bottom: 16px;
+      li {
+        display: inline;
+        margin-right: 29px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.search_page {
+  &__text {
+    @include font(15px, 500, #000000);
+    font-family: "Gotham Pro";
+    text-transform: uppercase;
+    margin-top: 32px;
+    p {
+      @include font(15px, 400, #333333);
+      font-family: "Gotham Pro";
+      text-transform: none;
+      margin-top: 40px;
+      b {
+        @include font(15px, 700, #333333);
+      }
+    }
+  }
+}

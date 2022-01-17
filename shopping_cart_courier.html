@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--   ИЗ ЭТ СЕКЦИИ ДАННЫЕ НЕ ОТОБРАЖ-СЯ И ИСП-СЯ ДЛЯ ПОДКЛЮЧ JS CSS И СИСТ НАСТРОЕК   -->
+    <title>shopping_cart_courier</title>
+
+    <!-- charset это атрибут
+        utf-8 это значение
+        атрибуты исп-ют для того, чтобы изм-ть отображение (интерпритацию тега(настроить его))-->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="header_nav__menu">
+                <ul>
+                  <li class="promo"><a href="#">Акции</a></li>
+                  <li>
+                    <a href="#"
+                      >Обучение<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Новости<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Сотрудничество<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li class="vacancy_margin"><a href="#">Вакансии</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="header_nav__payment">
+                <ul>
+                  <li><a href="#">Дисконтная программа</a></li>
+                  <li><a href="#">Оплата и доставка</a></li>
+                  <li>
+                    <a href="#"><span class="ico-link"></span></a
+                    ><a href="#">Milan@yandex.ru</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="logo logo_media">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="logo_block">
+              <div class="logo_block__pic">
+                <a href="#"><img src="images/milan_logo.svg" /></a>
+              </div>
+              <div class="logo_block__text">
+                <p>дистрибьютор</p>
+                <p>профессиональной</p>
+                <p>косметики</p>
+              </div>
+            </div>
+            <div class="logo_block_media">
+              <a class="milan_mini_media" href="#"
+                ><img src="images/milan_mini.svg"
+              /></a>
+              <a href="#"
+                ><img class="bag_media" src="images/bag.svg" />
+                <img src="images/button_menu.svg"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 logo_cont_media">
+            <div class="logo_cont">
+              <div class="logo_cont__search">
+                <input type="text" placeholder="Поиск ..." />
+                <a href="#"><span class="ico-search"></span></a>
+              </div>
+              <div div class="logo_cont__buy">
+                <a href="#"><span class="ico-location"></span>Где купить</a>
+              </div>
+              <div class="logo_cont__phone">
+                <div>
+                  <p>
+                    <a href="#">+375 (29) <b>347-00-90</b></a>
+                  </p>
+                  <p>
+                    <a href="#">+375 (29) <b>667-00-10</b></a>
+                  </p>
+                </div>
+                <a href="#"><span class="ico-cart"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border_media"></div>
+    </div>
+    <div class="border_under_logo"></div>
+    <div class="main_nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li>
+                <a href="#">Бренды<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Волосы<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Макияж<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Маникюр и педикюр<span class="dark_nav_arrow"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#">Лицо<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Тело<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Корея<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Мужчинам<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Одноразовая продукция<span class="dark_nav_arrow"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border_under_logo"></div>
+    <div class="bread-crumbs bread-crumbs_media">
+      <div class="container">
+        <ul>
+          <li class="dote_after"><a href="#">Главная</a></li>
+          <li>
+            <a href="#"><b>Корзина</b></a>
+          </li>
+        </ul>
+        <div class="order_history_flex">
+          <div class="title title_media">Корзина</div>
+        </div>
+      </div>
+    </div>
+    <div class="order_history">
+      <div class="container">
+        <div class="order_history_table">
+          <div
+            class="order_history_table__header order_history_table_header_media"
+          >
+            <ul>
+              <li class="table_product table_product_media">Товар</li>
+              <li class="table_brand">Бренд</li>
+              <li>Цена (BYN)</li>
+              <li class="order_prst">%</li>
+              <li class="order_sum">Количество</li>
+              <li>Сумма (BYN)</li>
+            </ul>
+          </div>
+          <div
+            class="
+              order_history_table__product_block
+              order_history_table_product_block_media
+            "
+          >
+            <div
+              class="
+                order_history_table_product_pic
+                order_history_table_product_pic_media
+                order_history_table_product_pic_media_test
+              "
+            >
+              <a href="#"> <img src="images/milan_nail.svg" /></a>
+            </div>
+            <div
+              class="
+                order_history_table_product_descript
+                order_history_table_product_descript_media
+              "
+            >
+              <div><a href="#">Гель-лак milan nail в ассортименте</a></div>
+              <div
+                class="
+                  order_history_table_product_ml
+                  order_history_table_product_ml_media
+                "
+              >
+                <b>9 ML</b>
+              </div>
+              <div><span class="nail_020"></span></div>
+            </div>
+
+            <div
+              class="
+                order_history_table_product_brand_without-date
+                order_history_table_product_brand_media
+              "
+            >
+              Milan Nail
+            </div>
+            <div
+              class="
+                order_history_table_product_price
+                order_history_table_product_price_media
+              "
+            >
+              <ul>
+                <li>40.50</li>
+                <li class="pink_cost">30.60</li>
+              </ul>
+            </div>
+            <div
+              class="
+                order_history_table_product_procent_without-date
+                order_history_table_product_procent_media
+              "
+            >
+              15%
+            </div>
+            <div
+              class="
+                order_history_table_product_numb
+                order_history_table_product_numb_media
+              "
+            >
+              1
+            </div>
+            <div
+              class="
+                order_history_table_product_sum
+                order_history_table_product_sum_media
+              "
+            >
+              30.55
+            </div>
+          </div>
+        </div>
+        <div class="order_history_table">
+          <div
+            class="
+              order_history_table__product_block
+              order_history_table_product_block_media
+            "
+          >
+            <div
+              class="
+                order_history_table_product_pic
+                order_history_table_product_pic_media
+                order_history_table_product_pic_media_test
+              "
+            >
+              <a href="#"> <img src="images/callus_elmi.svg" /></a>
+            </div>
+            <div
+              class="
+                order_history_table_product_descript
+                order_history_table_product_descript_media
+              "
+            >
+              <div>
+                <a href="#"
+                  >CALLUS ELIMINATOR СРЕДСТВО ДЛЯ УДАЛЕНИЯ НАТОПТЫШЕЙ</a
+                >
+              </div>
+              <div
+                class="
+                  order_history_table_product_ml
+                  order_history_table_product_ml_media
+                "
+              >
+                <b>525 ML</b>
+              </div>
+            </div>
+
+            <div
+              class="
+                order_history_table_product_brand_without-date
+                order_history_table_product_brand_media
+              "
+            >
+              Farmona PROFESSIONAL
+            </div>
+            <div
+              class="
+                order_history_table_product_price
+                order_history_table_product_price_media
+              "
+            >
+              <ul>
+                <li>40.50</li>
+                <li class="pink_cost">30.60</li>
+              </ul>
+            </div>
+            <div
+              class="
+                order_history_table_product_procent_without-date
+                order_history_table_product_procent_media
+              "
+            >
+              15%
+            </div>
+            <div
+              class="
+                order_history_table_product_numb
+                order_history_table_product_numb_media
+              "
+            >
+              1
+            </div>
+            <div
+              class="
+                order_history_table_product_sum
+                order_history_table_product_sum_media
+              "
+            >
+              30.55
+            </div>
+            <div class="test_media">
+              <div class="test_media_order_history">
+                <div class="order_history_table_product_pic_media">
+                  <a href="#"> <img src="images/milan_nail.svg" /></a>
+                </div>
+                <div class="test_media_order_history_info">
+                  <div class="test_media_order_history_info_text">
+                    Гель-лак milan nail в ассортименте
+                  </div>
+                  <div class="test_media_order_history_info_numb">
+                    <ul>
+                      <li>Milan Nail</li>
+                      <li>9 ML</li>
+                    </ul>
+                  </div>
+
+                  <div class="test_media_order_history_info_nail">
+                    <span class="nail_020"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="test_media_order_history_info_discount">
+                <ul>
+                  <li><b>Скидка:</b> 15%</li>
+                  <li><u>23.02.20</u></li>
+                </ul>
+              </div>
+              <div class="test_media_order_history_info_price">
+                <ul class="price_text">
+                  <li>Цена (BYN)</li>
+                  <li>Количество</li>
+                  <li>Сумма (BYN)</li>
+                </ul>
+                <ul class="price_numb">
+                  <li class="price_numb_flex"><u>40.50</u><b>30.60</b></li>
+                  <li>1</li>
+                  <li><b>30.55</b></li>
+                </ul>
+              </div>
+            </div>
+            <div class="test_media">
+              <div class="test_media_order_history">
+                <div class="order_history_table_product_pic_media">
+                  <a href="#"> <img src="images/callus_elmi.svg" /></a>
+                </div>
+                <div class="test_media_order_history_info">
+                  <div class="test_media_order_history_info_text">
+                    CALLUS ELIMINATOR СРЕДСТВО ДЛЯ УДАЛЕНИЯ НАТОПТЫШЕЙ
+                  </div>
+                  <div class="test_media_order_history_info_numb">
+                    <ul>
+                      <li>Farmona PROFESSIONAL</li>
+                      <li>525 ML</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test_media_order_history_info_price">
+                <ul class="price_text">
+                  <li>Цена (BYN)</li>
+                  <li>Количество</li>
+                  <li>Сумма (BYN)</li>
+                </ul>
+                <ul class="price_numb">
+                  <li class="price_numb_flex"><b>50.60 </b></li>
+                  <li>10</li>
+                  <li><b>1530.55 </b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order_history_media">
+          <div class="order_history_media_cost">
+            Стоимость товаров заказа: <b>10 736.50 BYN</b>
+          </div>
+          <div class="order_history_media_cart">
+            <a href="#"
+              ><span class="cross"></span>
+              <p>Очистить корзину</p></a
+            >
+          </div>
+        </div>
+        <div class="order_history_media_butn">
+          <a href="#">Продолжить покупки</a>
+        </div>
+      </div>
+    </div>
+    <div class="shopping_cart">
+      <div class="container">
+        <div class="shopping_cart_ordering">
+          <div
+            class="
+              shopping_cart_ordering__title
+              shopping_cart_ordering_title_media
+            "
+          >
+            <p>оформление заказа</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 shopping_cart__form shopping_cart_form_media">
+            <div class="cart_form_head cart_form_head_media">
+              1. анкета получателя
+            </div>
+            <div class="cart_form_info cart_form_info_media">
+              Внесите Ваши личные данные
+            </div>
+            <div class="cart_form_info__block cart_form_info_block_media">
+              <form>
+                <input
+                  type="text"
+                  name="firstname"
+                  placeholder="Имя: *"
+                  class="name"
+                />
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Фамилия: *"
+                  class="lastname"
+                />
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Телефон: *"
+                  class="phone"
+                />
+
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="E-mail: *"
+                  class="email"
+                />
+              </form>
+              <p>Обязательное поле</p>
+            </div>
+          </div>
+          <div class="col-lg-4 shopping_cart__form shopping_cart_form_media">
+            <div class="cart_form_head cart_form_head_media">
+              2. данные доставки
+            </div>
+            <div class="cart_form_info cart_form_info_media">
+              Выберете способ доставки
+            </div>
+            <div class="cart_form_info__block cart_form_info_block_media">
+              <form>
+                <select form="delivery">
+                  <option value="">Курьером по Минску</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </form>
+              <div class="cart_form_info_adress cart_form_info_adress_media">
+                Укажите свой адрес
+              </div>
+              <div class="textarea_block textarea_block_media">
+                <textarea
+                  type="text"
+                  name="new_password"
+                  placeholder="Адрес"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 shopping_cart__form shopping_cart_form_media">
+            <div class="cart_form_head cart_form_head_media">
+              3. способ оплаты
+            </div>
+            <div class="cart_form_info cart_form_info_media">
+              Выберете способ оплаты
+            </div>
+            <div class="cart_form_info__block cart_form_info_block_media">
+              <form>
+                <select form="delivery">
+                  <option value="1">Наличными</option>
+                  <option value="2">Банковской картой</option>
+                </select>
+              </form>
+              <div class="cart_form_info_adress cart_form_info_adress_media">
+                Оплата наличными производится в момент получения заказа
+              </div>
+              <div class="textarea_block textarea_block_media">
+                <textarea
+                  type="text"
+                  name="order_comment"
+                  placeholder="Комментарий к заказу"
+                ></textarea>
+              </div>
+              <div
+                class="
+                  cart_form_info_adress
+                  order_margin_top
+                  cart_form_info_adress_media
+                "
+              >
+                Оплатить бонусами
+              </div>
+              <div class="cart_form_bones_sum cart_form_bones_sum_media">
+                <div
+                  class="
+                    cart_form_bones_sum__butn
+                    cart_form_bones_sum_butn_media
+                  "
+                >
+                  <div class="sum_butn_1 sum_butn_1_media">Сколько списать</div>
+                  <div class="sum_butn_2 sum_butn_2_media">
+                    <a href="#">Применить</a>
+                  </div>
+                </div>
+                <div
+                  class="
+                    cart_form_bones_sum__numb
+                    cart_form_bones_sum_numb_media
+                  "
+                >
+                  Бонусов: 181 444
+                </div>
+              </div>
+              <div class="shopping_cart_test shopping_cart_test_media">
+                <div class="cart_form_info_cost cart_form_info_cost_media">
+                  <p>Стоимость товаров заказа</p>
+                  <b>180.00 BYN</b>
+                </div>
+                <div class="cart_form_info_cost">
+                  <p>Стоимость доставки</p>
+                  <b>5.50 BYN</b>
+                </div>
+                <div class="cart_form_info_cost">
+                  <p>Итого к заказу</p>
+                  <u>185.50 BYN</u>
+                </div>
+                <div class="cart_form_info_cost_butn">
+                  <a href="#">Оформить заказ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_nav">
+      <div class="footer_nav_info">
+        <div class="footer_nav_info__block">
+          г. Минск, ул. Филимонова 55/3, офис 309/14
+          <div class="footer_nav__nets">
+            <a href="#"><span class="ico-vk"></span></a>
+            <a href="#"><span class="ico-facebook"></span></a>
+            <a href="#"><span class="ico-inst"></span></a>
+          </div>
+        </div>
+        <div class="footer_nav_info__block">
+          Работаем: Пн-Пт с 9:00 до 18:00
+        </div>
+        <div class="footer_nav_info__block footer_block_flex">
+          <b>телефон</b>
+          <div>
+            <p>+375 (29) 347-00-90</p>
+            <p>+375 (29) 667-00-10</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_nav_subscribe">
+        <a href="#" class="nav_bold">Подписка на ближайшие семинары и акции</a>
+        <input  type="email" placeholder="Электронная почта"></input>
+        <div class="just_border"></div>
+        <a href="#" class="nav_bordered">подписаться</a>
+      </div>
+    </div>
+    <div class="footer_nav_media footer_nav_order_history_media">
+      <div class="footer_nav_nets_media">
+        <a href="#"><span class="ico-vk ico-vk_size"></span></a>
+        <a href="#"><span class="ico-facebook ico-facebook_size"></span></a>
+        <a href="#"><span class="ico-inst ico-inst_size"></span></a>
+      </div>
+      <div class="footer_nav_media_info">
+        <div class="footer_nav_media_info_block location_media_block">
+          <span class="location_media"></span>
+          <p>г. Минск, ул. Филимонова 55/3, офис 309/14</p>
+        </div>
+        <div class="footer_nav_media_info_block clock_media_block">
+          <span class="clock_media"></span> Работаем: Пн-Пт с 9:00 до 18:00
+        </div>
+        <div class="footer_nav_info_media_block phone_media_block">
+          <span class="phone_media"></span>
+          <div>
+            Телефон
+            <p>+375 (29) 347-00-90</p>
+            <p>+375 (29) 667-00-10</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_nav_media_border"></div>
+      <div class="footer_nav_subscribe footer_nav_subscribe_media">
+        <a href="#" class="nav_bold nav_bold_media"
+          >Подписка на ближайшие семинары и акции</a
+        >
+        <input type="email" placeholder="Электронная почта" />
+        <div class="just_border just_border_media"></div>
+        <a href="#" class="nav_bordered nav_bordered_media">подписаться</a>
+      </div>
+    </div>
+    <div class="footer_line footer_line_media">
+      <ul>
+        <li>
+          <a href="#"
+            ><b>&copy;</b><i>MilanCosmetics.by</i>– Все права защищены</a
+          >
+        </li>
+        <li><a href="#" class="underline">Карта сайта</a></li>
+        <li>
+          <a href="#" class="flex"
+            >Разработка сайта<span class="grizzly"></span
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

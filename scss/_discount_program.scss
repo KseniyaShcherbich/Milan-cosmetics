@@ -1,0 +1,87 @@
+.discount_program {
+  &__table {
+    background: #f5f5f5;
+    border: 1px solid #d5d5d5;
+    padding: 30px 100px 30px 30px;
+    margin: 40px 0px;
+  }
+  .discount_program_text {
+    @include font(15px, 400, #333333);
+    font-family: "Gotham Pro";
+    &__head {
+      @include font(20px, 500, #333333);
+      font-family: "Gotham Pro";
+      margin-bottom: 26px;
+    }
+  }
+}
+.discount_program_flex {
+  @include flex(space-between, center);
+  flex-wrap: nowrap;
+  .discount_program_border {
+    border: 2px solid #ce39a9;
+    width: 240px;
+    padding: 10px;
+    margin-bottom: 24px;
+  }
+  .discount_program_conditions {
+    @include font(15px, 300, #333333);
+    font-family: "Gotham Pro";
+    width: 440px;
+    b {
+      @include font(16px, bold, #ce39a9);
+    }
+  }
+  .discount_program_progress {
+    @include font(16px, 300, #333333);
+    font-family: "Gotham Pro";
+    margin-bottom: 16px;
+  }
+  .discount_program_graph {
+    width: 400px;
+    .discount_program_margin {
+      ul {
+        margin: 0px;
+      }
+    }
+  }
+}
+.test_graph {
+  .test_graph_block_1 {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ce39a9;
+    background: #f5f5f5;
+  }
+  .test_graph_block_2 {
+    background: #ce39a9;
+    height: 46px;
+    &.v_0 {
+      width: 0%;
+    }
+    &.v_2 {
+      width: 13%;
+    }
+    &.v_4 {
+      width: 25%;
+    }
+    &.v_6 {
+      width: 38%;
+    }
+    &.v_8 {
+      width: 50%;
+    }
+    &.v_10 {
+      width: 63%;
+    }
+    &.v_12 {
+      width: 74%;
+    }
+    &.v_14 {
+      width: 87%;
+    }
+    &.v_16 {
+      width: 100%;
+    }
+  }
+}

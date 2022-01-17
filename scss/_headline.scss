@@ -1,0 +1,134 @@
+.headline {
+  position: relative;
+  &__title {
+    @include font(24px, 700, #333333);
+
+    margin: 32px 0px 40px 0px;
+  }
+  &__text {
+    width: 898px;
+    @include font(16px, 400, #333333);
+    line-height: 32px;
+    b {
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+    ul {
+      padding: 0px;
+      li {
+        line-height: 32px;
+        list-style: none;
+
+        &:before {
+          content: "-";
+          display: inline;
+          color: #333333;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+  &__pic {
+    text-align: center;
+    margin: 40px 0px 60px 0px;
+    p {
+      margin: 0px;
+      img {
+        width: 666px;
+        height: 440px;
+      }
+    }
+    img {
+      width: 128px;
+      height: 110px;
+      border: 3px solid transparent;
+      &:hover {
+        border: 3px solid #e5e5e5;
+      }
+    }
+  }
+  .headline_arrow_left {
+    background: url(../images/grey_arrow.svg) no-repeat;
+    display: inline-block;
+    width: 33px;
+    height: 24px;
+    position: absolute;
+    top: 52%;
+    left: 19%;
+  }
+  .headline_arrow_right {
+    background: url(../images/grey_arrow.svg) no-repeat;
+    display: inline-block;
+    width: 33px;
+    height: 24px;
+    position: absolute;
+    top: 52%;
+    right: 19%;
+    transform: rotate(180deg);
+  }
+  &__news {
+    @include font(16px, 700, #333333);
+    ul {
+      padding: 0px 0px 0px 15px;
+      li {
+        margin-bottom: 24px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        &:first-child {
+          margin-top: 24px;
+        }
+        a {
+          @include font(16px, 700, #c81f9e);
+          text-decoration: underline;
+        }
+      }
+    }
+    .headline_button {
+      margin-top: 30px;
+
+      a {
+        background: #ce39a9;
+        width: 596px;
+        text-align: center;
+        @include font(13px, 700, #fff);
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+      }
+    }
+  }
+  &__footer {
+    p {
+      @include font(24px, 700, #333);
+      text-align: center;
+      margin: 80px 0px 40px 0px;
+    }
+    .headline_footer_flex {
+      @include flex(space-between, center);
+      flex-wrap: nowrap;
+    }
+    .headline_footer_block {
+      @include flex(flex-start, normal);
+      flex-wrap: nowrap;
+      &__pic {
+        width: 100px;
+        height: 100px;
+        margin-right: 16px;
+      }
+      &__text {
+        u {
+          @include font(10px, 700, #ce39a9);
+          margin: 0px;
+          text-decoration: none;
+          display: block;
+        }
+        a {
+          margin-top: 16px;
+          text-decoration: none;
+          @include font(12px, 700, #333);
+        }
+      }
+    }
+  }
+}

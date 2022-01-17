@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--   ИЗ ЭТ СЕКЦИИ ДАННЫЕ НЕ ОТОБРАЖ-СЯ И ИСП-СЯ ДЛЯ ПОДКЛЮЧ JS CSS И СИСТ НАСТРОЕК   -->
+    <title>cooperation_back</title>
+
+    <!-- charset это атрибут
+        utf-8 это значение
+        атрибуты исп-ют для того, чтобы изм-ть отображение (интерпритацию тега(настроить его))-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  </head>
+  <body class="back">
+    <div class="header">
+      <div class="header_nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="header_nav__menu">
+                <ul>
+                  <li class="promo"><a href="#">Акции</a></li>
+                  <li>
+                    <a href="#"
+                      >Обучение<span class="header_nav_arrow_down"></span
+                    ></a>
+                    <!-- <ul class="header_second">
+                      <li><a href="#">Волосы</a></li>
+                      <li><a href="#">Косметология</a></li>
+                      <li><a href="#">Визаж</a></li>
+                      <li><a href="#">Маникюр и педикюр</a></li>
+                    </ul> -->
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Новости<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Сотрудничество<span class="header_nav_arrow_down"></span
+                    ></a>
+                  </li>
+                  <li class="vacancy_margin"><a href="#">Вакансии</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="header_nav__payment">
+                <ul>
+                  <li><a href="#">Дисконтная программа</a></li>
+                  <li><a href="#">Оплата и доставка</a></li>
+                  <li>
+                    <a href="#"><span class="ico-link"></span></a
+                    ><a href="#">Milan@yandex.ru</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="logo logo_media">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="logo_block">
+              <div class="logo_block__pic">
+                <a href="#"><img src="images/milan_logo.svg" /></a>
+              </div>
+              <div class="logo_block__text">
+                <p>дистрибьютор</p>
+                <p>профессиональной</p>
+                <p>косметики</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="logo_cont">
+              <div class="logo_cont__search">
+                <input type="text" placeholder="Поиск ..." />
+                <a href="#"><span class="ico-search"></span></a>
+              </div>
+              <div div class="logo_cont__buy">
+                <a href="#"><span class="ico-location"></span>Где купить</a>
+              </div>
+              <div class="logo_cont__phone">
+                <div>
+                  <p>
+                    <a href="#">+375 (29) <b>347-00-90</b></a>
+                  </p>
+                  <p>
+                    <a href="#">+375 (29) <b>667-00-10</b></a>
+                  </p>
+                </div>
+                <a href="#"><span class="ico-cart"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border_under_logo"></div>
+    <div class="main_nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li>
+                <a href="#">Бренды<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Волосы<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Макияж<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Маникюр и педикюр<span class="dark_nav_arrow"></span
+                ></a>
+              </li>
+              <li>
+                <a href="#">Лицо<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Тело<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Корея<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#">Мужчинам<span class="dark_nav_arrow"></span></a>
+              </li>
+              <li>
+                <a href="#"
+                  >Одноразовая продукция<span class="dark_nav_arrow"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border_under_logo"></div>
+    <div class="bread-crumbs">
+      <div class="container">
+        <ul>
+          <li class="dote_after"><a href="#">Главная</a></li>
+          <li>
+            <a href="#"><b>Сотрудничество</b></a>
+          </li>
+        </ul>
+        <div class="title">сотрудничество с нами</div>
+      </div>
+    </div>
+    <div class="cooperation">
+      <div class="container">
+        <div class="cooperation__logo">
+          <img src="images/hands.svg" />
+          <div class="cooperation_milan_pic"></div>
+        </div>
+        <div class="cooperation_info row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5 cooperation_info__pic">
+            <a href="#"><img src="images/logo_2.svg" /></a>
+          </div>
+          <div class="col-lg-5 cooperation_info__text">
+            <b>ООО «Милан Косметикс»</b> является одним из крупнейших
+            дистрибьюторов профессиональной косметики на белорусском рынке.<br />
+            <br />Мы предоставляем огромный выбор продуктов в бьюти-сфере
+            (разного ценового сегмента, страны производителя), что позволяет нам
+            сделать индивидуальное предложение для каждого клиента. Со всеми
+            производителями сотрудничаем только на условиях прямых
+            контрактов.<br /><br />
+            Мы заботимся о Вашей репутации, а потому предлагаем регулярные
+            обучающие семинары и мастер-классы. Для нас очень важно, чтобы вы
+            умели правильно работать с нашим продуктом, получали отличные
+            результаты и благодарных клиентов.
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 cooperation_info__text cooperation_text_margin">
+            Сотрудничество с нами — это профессиональная помощь при формировании
+            ассортиментной матрицы с учетом нашей статистики продаж по каждому
+            торговому каналу, а также понимание специфики канала.<br />
+            <br />
+            Мы стабильно работаем для вас уже более 11 лет и гарантируем лучшую
+            цену на рынке.
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+        <div class="cooperation__butn"><a href="#">ПРАЙС-ЛИСТ</a></div>
+        <div class="cooperation__milancosm">
+          Миланкосметикс
+          <p>с нами интересно!</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 cooperation__milancosm_list">
+            <p>Для салонов красоты, парикмахерских и частных мастеров:</p>
+            <ul>
+              <li>
+                Огромный выбор профессиональных продуктов разного ценового
+                сегмента позволяет нам сделать предложение для каждого кабинета
+                в салоне.
+              </li>
+              <li>
+                Мы заботимся о Вашей репутации, а потому предлагаем
+                <b>регулярные обучающие семинары и мастер-классы</b>. Для нас
+                очень важно, чтобы вы умели правильно работать с нашим
+                продуктом, получали отличные результаты и благодарных клиентов.
+                *Возможность индивидуального обучения по работе с нашим брендом
+                для салонов
+              </li>
+              <li>
+                Дополнительная мотивация для ваших сотрудников с целью
+                увеличения допродаж в вашем салоне.
+                <b>Обучаем ваших специалистов</b> продавать своим клиентам
+                качественный домашний уход.
+              </li>
+              <li>
+                <b>Бесплатная доставка</b>. Сегодня получаем заказ — завтра он у
+                вас. Минимальный заказ для бесплатной доставки от 100р.
+                Возможность забирать самостоятельно при сумме заказа всего от
+                50р.
+              </li>
+              <li>
+                Пакетное предложение. При первой покупке 30 красителей –
+                однократная <b>скидка 30%</b> на весь заказ этого бренда и
+                палитра в подарок.
+              </li>
+              <li>Сертифицированная продукция.</li>
+              <li>
+                Профессиональная <b>консультация в онлайн-режиме</b> по
+                продукту.
+              </li>
+              <li>
+                Возможность приобретать по оптовой цене не только продукт по
+                своему профилю, но также любой товар из всего ассортимента
+                компании.
+              </li>
+              <li>
+                Своевременное информирование обо всех новинках, акциях, бонусах,
+                распродажах.
+              </li>
+              <li>
+                Дополнительный бонус: <b>Приведи клиента</b> (салон, brow-бар,
+                nail-бар, мастера) <b>и получи 15% бонусом</b> от суммы его
+                первого заказа.
+              </li>
+              <li>
+                Стабильность компании и гарантия лучшей цены на рынке. Мы
+                работаем для вас уже больше 11 лет. Со всеми производителями
+                работаем только на условиях прямых контрактов.
+              </li>
+              <li><b>Гарантия стабильной цены</b> в течении года.</li>
+              <li>Оперативное решение любых вопросов с одним человеком.</li>
+            </ul>
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_nav">
+      <div class="footer_nav_info">
+        <div class="footer_nav_info__block">
+          г. Минск, ул. Филимонова 55/3, офис 309/14
+          <div class="footer_nav__nets">
+            <a href="#"><span class="ico-vk"></span></a>
+            <a href="#"><span class="ico-facebook"></span></a>
+            <a href="#"><span class="ico-inst"></span></a>
+          </div>
+        </div>
+        <div class="footer_nav_info__block">
+          Работаем: Пн-Пт с 9:00 до 18:00
+        </div>
+        <div class="footer_nav_info__block footer_block_flex">
+          <b>телефон</b>
+          <div>
+            <p>+375 (29) 347-00-90</p>
+            <p>+375 (29) 667-00-10</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer_nav_subscribe">
+        <a href="#" class="nav_bold">Подписка на ближайшие семинары и акции</a>
+        <input type="email" placeholder="Электронная почта" />
+        <div class="just_border"></div>
+        <a href="#" class="nav_bordered">подписаться</a>
+      </div>
+    </div>
+    <div class="footer_line">
+      <ul>
+        <li>
+          <a href="#"
+            ><b>&copy;</b><i>MilanCosmetics.by</i>– Все права защищены</a
+          >
+        </li>
+        <li><a href="#" class="underline">Карта сайта</a></li>
+        <li>
+          <a href="#" class="flex"
+            >Разработка сайта<span class="grizzly"></span
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <div class="cooperation_back"></div>
+    <div class="popup-fade">
+      <div class="popup">
+        <div class="popup_cross">
+          <a href="#"><span class="cross"></span></a>
+        </div>
+        <p class="popup_title">запрос прайс-листа</p>
+        <div class="popup_border"></div>
+        <div class="popup_checkbox-post">
+          <div class="you">Вы:</div>
+          <div>
+            <input name="test" type="radio" value="1" />Администратор (директор)
+            магазина<br />
+            <input name="test" type="radio" value="2" />Администратор (директор)
+            салона<br />
+            <input name="test" type="radio" value="3" />Частный мастер<br />
+            <input name="test" type="radio" value="4" />Физическое лицо<br />
+            <input name="test" type="radio" value="5" />Другое<br />
+          </div>
+        </div>
+        <div class="popup_border modified"></div>
+        <div class="popup_form">
+          <form>
+            <input type="text" placeholder="Ф.И.О*" />
+            <input type="text" placeholder="Контактный номер*" />
+            <input
+              type="text"
+              placeholder="Фактическое название салона/магазина*"
+            />
+            <input type="text" placeholder="E-mail*" />
+            <input
+              type="text"
+              placeholder="Юридическое название салона/магазина*"
+            />
+          </form>
+        </div>
+        <div class="popup_border modified"></div>
+        <div class="popup_price">
+          <p>Выберите прайс интересующей продукции:</p>
+          <div class="row popup_padding">
+            <div class="col-lg-6">
+              <div class="popup_block">
+                <p>Для волос</p>
+                <input type="checkbox" />BEARD Club<br />
+                <input type="checkbox" />COCOCHOCO<br />
+                <input type="checkbox" />KAARAL<br />
+                <input type="checkbox" />KAYPRO<br />
+                <input type="checkbox" />PROSALON<br />
+                <input type="checkbox" />Silver Star<br />
+                <input type="checkbox" />Wet brush<br />
+                <input type="checkbox" />Чистовье<br />
+              </div>
+              <div class="popup_block">
+                <p>Маникюр и педикюр</p>
+                <input type="checkbox" />Be natural<br />
+                <input type="checkbox" />EZ NAIL<br />
+                <input type="checkbox" />Farome PROFESSIONAL<br />
+                <input type="checkbox" />INM<br />
+                <input type="checkbox" />Milan Nail<br />
+                <input type="checkbox" />Opium<br />
+                <input type="checkbox" />Silver Star<br />
+              </div>
+              <div class="popup_block">
+                <p>Для домашнего ухода</p>
+                <input type="checkbox" />FARCOM<br />
+                <input type="checkbox" />Faroma<br />
+                <input type="checkbox" />Faroma PROFESSIONAL<br />
+                <input type="checkbox" />Floss PRO<br />
+                <input type="checkbox" />L’Angelica<br />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="popup_block">
+                <p>Косметология</p>
+                <input type="checkbox" />Faroma Professional<br />
+              </div>
+              <div class="popup_block">
+                <p>Для визажа</p>
+                <input type="checkbox" />ANDREA<br />
+                <input type="checkbox" />ANDRELL<br />
+                <input type="checkbox" />CC Brow<br />
+                <input type="checkbox" />DUO<br />
+                <input type="checkbox" />Godefroy<br />
+                <input type="checkbox" />iBeauty<br />
+                <input type="checkbox" />Milan PRO<br />
+                <input type="checkbox" />OXEYE<br />
+                <input type="checkbox" />PAESE<br />
+                <input type="checkbox" />PROVOC<br />
+              </div>
+              <div class="popup_block">
+                <p>Корейская косметика</p>
+                <input type="checkbox" />Dermal<br />
+                <input type="checkbox" />Elizavecca<br />
+                <input type="checkbox" />J:ON<br />
+                <input type="checkbox" />LG Household & Health Care<br />
+                <input type="checkbox" />PERIORE<br />
+                <input type="checkbox" />Petitfee<br />
+                <input type="checkbox" />Sinabo<br />
+                <input type="checkbox" />veraclara<br />
+                <input type="checkbox" />Via Beauty<br />
+              </div>
+            </div>
+          </div>
+          <div class="popup_butn">
+            <div class="popup_butn_pink"><a href="#">выбрать всё</a></div>
+            <div class="cancel">
+              <a href="#">сбросить</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup_border modified"></div>
+        <div class="popup_notice">
+          <input type="checkbox" />Получать уведомления оближайших акциях и
+          семинарах<br />
+          <textarea
+            class="popup_comment"
+            type="text"
+            name="comment"
+            placeholder="Ваш комментарий:"
+          ></textarea>
+          <div class="cooperation__butn">
+            <a href="#">Запросить прайс-лист</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

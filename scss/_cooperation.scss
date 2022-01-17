@@ -1,0 +1,79 @@
+.cooperation {
+  &__logo {
+    margin: 40px 0px;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .cooperation_milan_pic {
+      display: inline;
+      width: 226px;
+      height: 107px;
+      background: url(../images/logo_milan.svg) no-repeat;
+      position: absolute;
+      top: 27%;
+      left: 40%;
+    }
+  }
+  .cooperation_info {
+    &__pic {
+      width: 100%;
+    }
+    &__text {
+      @include font(13px, 400, #333);
+    }
+  }
+  .cooperation_text_margin {
+    margin: 32px 0px 40px 0px;
+  }
+  &__butn {
+    text-align: center;
+    text-transform: uppercase;
+    a {
+      display: inline-block;
+      @include font(14px, 500, #333);
+      border: 2px solid #333333;
+      padding: 18px 86px;
+      text-decoration: none;
+      margin-bottom: 40px;
+      &:hover {
+        text-decoration: none;
+        color: #333;
+      }
+    }
+  }
+  &__milancosm {
+    @include font(24px, 700, #ce39a9);
+    text-transform: uppercase;
+    text-align: center;
+    p {
+      margin-top: 16px;
+      @include font(15px, 700, #333333);
+    }
+  }
+  &__milancosm_list {
+    p {
+      margin-top: 56px;
+      @include font(15px, 700, #333333);
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 24px 0px 0px 0px;
+      padding-left: 15px;
+      li {
+        @include font(15px, 400, #333333);
+        margin-bottom: 15px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+.cooperation_logo_media {
+  display: none;
+}
+.cooperation_info_text_media {
+  display: none;
+}

@@ -1,0 +1,116 @@
+@import "../fonts/stylesheet.scss";
+@import "_fonts.scss";
+// @import "../fonts/Gotham.scss";
+@import "_icons.scss";
+@import "_mixins.scss";
+@import "_modules.scss";
+@import "_account.scss";
+@import "_account_password.scss";
+@import "_account_address.scss";
+@import "_order_history.scss";
+@import "_order_history_empty.scss";
+@import "_discount_program.scss";
+@import "_discount_program_zero.scss";
+@import "_search_page_empty.scss";
+@import "_search_page.scss";
+@import "_payment_delivery_info.scss";
+@import "_product_card.scss";
+@import "_shopping_cart.scss";
+@import "_shopping_cart_courier.scss";
+@import "_shopping_cart_pickup.scss";
+@import "_shopping_cart_post.scss";
+@import "_training.scss";
+@import "_training_category.scss";
+@import "_seminar.scss";
+@import "_news.scss";
+@import "_news_category.scss";
+@import "_headline.scss";
+@import "_cooperation.scss";
+@import "_contacts.scss";
+@import "_vacancy.scss";
+@import "_buy.scss";
+@import "_site_map.scss";
+@import "_product_filter.scss";
+@import "_product_filter_baco.scss";
+// @import "_cooperation_back.scss";
+// @import "_product_card_back.scss";
+@import "_product_card_comment.scss";
+@import "_comment_added.scss";
+@import "_header.scss";
+// @import "_header_back.scss";
+// @import "_header_back_registration.scss";
+// @import "_header_back_password.scss";
+// @import "_header_back_emty.scss";
+// @import "_header_back_menu.scss";
+@import "_index.scss";
+// @import "_product_filter_menu_back.scss";
+// @import "_product_filter_enter_back.scss";
+// @import "_product_filter_registration_back.scss";
+// @import "_product_filter_password_back.scss";
+// @import "_product_filter_orders_back.scss";
+// @import "_product_filter_check_back.scss";
+@import "_popup.scss";
+body {
+  font-family: "Gotham Pro", sans-serif;
+  // font-family: "Roboto", sans-serif;
+}
+
+.img_cosmetics {
+  margin-bottom: 80px;
+  img {
+    width: 100%;
+  }
+}
+.black_nav_link {
+  margin-top: 30px;
+  ul {
+    li {
+      a {
+        color: #333333;
+      }
+    }
+  }
+}
+.marketing {
+  margin: 15px 0px 80px 0px;
+  background: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    #fdfdfd 49.48%,
+    #f6f6f6 99.48%
+  );
+  &__place {
+    @include flex(space-between, flex-end);
+
+    padding: 29px 0px;
+
+    img {
+      max-width: 100px;
+    }
+  }
+}
+.instagram {
+  padding: 0px 20px;
+  position: relative;
+  &__logo {
+    margin: 80px 0px 0px 0px;
+    .inst_position {
+      margin-top: 80px;
+      position: absolute;
+      bottom: 100%;
+      right: 78%;
+    }
+  }
+  &__foto {
+    img {
+      width: 200px;
+    }
+  }
+}
+.vacancy_margin {
+  margin-right: 5px;
+}
+
+// media
+
+@import "_media.scss";
